@@ -69,14 +69,24 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 h1 {
     font-size: 7.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(225, 239, 230);
 }
 
 h2 {
     font-size: 6rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(225, 239, 230);
+    padding: 5rem 1rem 3rem;
 }
 
 h3 {
     font-size: 5rem;
+
 }
 
 p, a {
@@ -131,7 +141,16 @@ header {
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 4, 17, .8);
+   
 }
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+  }
+  
 
 .about h2 {
     width: 100%;
@@ -139,6 +158,7 @@ header {
 
 .about-container .text {
     width: 50%;
+    color: white;
 }
 
 /* contact us section */
@@ -159,14 +179,17 @@ header {
 
 .contact h2 {
     padding-top: 5vh;
+    color:rgb(225, 239, 230);
 }
 
 .contact h3 {
     padding-top: 2.5vh;
+    color:rgb(225, 239, 230);
 }
 
 .contact p {
     padding: .5vh 0;
+    color:rgb(225, 239, 230);
 }
 
 .info {
@@ -194,6 +217,43 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+}
+
+.container2{
+ display:flex;
+ justify-content: space-evenly;   
+}
+
+.container2 a{
+    color: white;
+}
+
+#phone{
+
+    color:rgb(225, 239, 230);
+}
+
+#email{
+    color:rgb(225, 239, 230);
+}
+
+.footercontainer{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 4, 17, .8);
+    
+}
+
+.footercontainer a{
+    color:rgb(225, 239, 230);
+}
+
+
+.button{
+width:7rem;
 }
 
 /* mobile media query */

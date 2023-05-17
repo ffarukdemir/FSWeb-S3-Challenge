@@ -68,6 +68,10 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 h1 {
     font-size: 7.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(225, 239, 230);
 }
 
 h2 {
@@ -95,7 +99,15 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.container2{
+    display:flex;
+    justify-content: space-evenly;   
+   }
+   
+   .container2 a{
+       color: white;
+   }
+   
 /* spacer */
 .spacer {
     width: 100%;
@@ -118,7 +130,31 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color:white;
+    justify-content: space-between;
+    padding: 3rem;
 }
+ .menu h2{
+    display:flex;
+    justify-content: center;
+ }
+
+ .fiyatlı{
+    padding:1rem;
+ }
+
+.menuler{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:3rem;
+    }
+
+.menu h4{
+    display:flex;
+    justify-content: space-between;
+}
+
 
 /* footer section */
 footer {
@@ -127,6 +163,8 @@ footer {
     padding-top: 2.5vh;
     font-size: 3rem;
 }
+
+
 
 /* mobile media query */
 @media (max-width: 428px) {
