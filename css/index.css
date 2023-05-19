@@ -291,11 +291,23 @@ padding:5rem;
       }
       
       form {
+        display:flex;
+        flex-direction:row;
         margin-right: 0.5rem;
+        width:27rem;
+        
+      }
+
+     input {
+      display: flex;
+      height: 4rem;
+      width:23rem;
       }
       
       button {
+        display:flex;
         margin-left: 0.5rem;
+        width:8rem;
       }
 
 .footercontainer{
@@ -314,25 +326,29 @@ padding:5rem;
 @media (max-width: 428px) {
     /* header section */
     
-    .headerdiv {
+    h1{
+        display: flex;
+        justify-content: center;
+       font-size: 3.5rem;
+    }
+    .container2 {
         display: flex;
         flex-direction: column;
         padding: 0;
         width: auto;
       }
       
-      .container2 {
-        margin-top: 10px;
-      }
-      
-      .container2 a {
-        display: block;
-        margin-bottom: 5px;
-      }
+   
 
     /* gallery section */
     .gallery {
         height: auto;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: auto;
     }
     
     /* about us section */
